@@ -22,8 +22,7 @@ Route::group(['namespace' => 'Auth', 'middleware' => 'auth'], function () {
 });
 
 //首页
-Route::group(['namespace' => 'Home'],function(){
-	
+Route::group(['namespace' => 'Home'],function(){	
     Route::get('/','HomeController@index');
 	Route::get('a','HomeController@index');
 
