@@ -25,7 +25,7 @@ Route::group(['namespace' => 'Auth', 'middleware' => 'auth'], function () {
 Route::group(['namespace' => 'Home'],function(){
 	
     Route::get('/','HomeController@index');
-	Route::get('aa','HomeController@index');
+   // Route::get('aa','HomeController@index');
 
 });
 
